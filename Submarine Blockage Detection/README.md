@@ -22,7 +22,7 @@ This was a group capstone project with 4 members. I handled:
 - Serial Communication
 
 ## Object Detection
-The AI model was trained to detect trash-related objects including:
+The AI model was trained to detect trash-related objects, including:
 - PET Bottles
 - Plastic Bags
 - Paper Bags
