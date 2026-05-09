@@ -31,6 +31,7 @@ The AI model was trained to detect trash-related objects, including:
 ## Detection Results
 Tested in a controlled environment. Results varied across materials:
 | Material | Detection Rate |
+|----------|---------------|
 | PET Bottles | 67% |
 | Snack Wrappers | 67% |
 | Plastic Bags | 33% |
