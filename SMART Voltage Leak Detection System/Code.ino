@@ -1,8 +1,3 @@
-/**
- * This program shows you how to use the bas
-ics of this library.
-*/
-
 #include <ZMPT101B.h>
 #include <Button.h>
 #define SENSITIVITY 280.00f
