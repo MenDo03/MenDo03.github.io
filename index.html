@@ -7,6 +7,12 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,500;12..96,600;12..96,700;12..96,800&family=IBM+Plex+Mono:wght@300;400;500&family=Barlow:wght@300;400;500&display=swap" rel="stylesheet">
 <style>
+  .project-link {
+  font-family: var(--font-mono); font-size: 0.73rem; color: var(--accent);
+  text-decoration: none; display: inline-flex; align-items: center; gap: 0.3rem;
+  transition: opacity 0.2s;
+}
+.project-link:hover { opacity: 0.7; }
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
 :root {
@@ -325,12 +331,7 @@ section { padding: 5.5rem 5%; position: relative; z-index: 1; }
   transition: opacity 0.2s;
 }
 .proj-link:hover { opacity: 0.7; }
-  .project-link {
-  font-family: var(--font-mono); font-size: 0.73rem; color: var(--accent);
-  text-decoration: none; display: inline-flex; align-items: center; gap: 0.3rem;
-  transition: opacity 0.2s;
-}
-.project-link:hover { opacity: 0.7; }
+
 
 /* TIMELINE */
 #experience { background: var(--bg-1); }
