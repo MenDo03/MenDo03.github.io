@@ -319,12 +319,12 @@ section { padding: 5.5rem 5%; position: relative; z-index: 1; }
     color: var(--muted); font-size: 0.74rem; padding: 0.2rem 0.6rem; border-radius: 4px;
   }
   .project-links { display: flex; gap: 0.75rem; }
-  .project-link {
-    font-size: 0.82rem; font-weight: 500; text-decoration: none;
-    color: var(--accent2); display: flex; align-items: center; gap: 0.3rem;
-    transition: color 0.2s;
-  }
-  .project-link:hover { color: var(--text); }
+  .proj-link {
+  font-family: var(--font-mono); font-size: 0.73rem; color: var(--accent);
+  text-decoration: none; display: inline-flex; align-items: center; gap: 0.3rem;
+  transition: opacity 0.2s;
+}
+.proj-link:hover { opacity: 0.7; }
 
 /* TIMELINE */
 #experience { background: var(--bg-1); }
