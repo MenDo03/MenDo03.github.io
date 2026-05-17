@@ -8,6 +8,31 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,500;12..96,600;12..96,700;12..96,800&family=IBM+Plex+Mono:wght@300;400;500&family=Barlow:wght@300;400;500&display=swap" rel="stylesheet">
 <style>
+.bar.d { background: var(--muted2); }
+
+/* ADD AFTER THIS */
+.bar-legend {
+  display: flex;
+  gap: 1.5rem;
+  margin-bottom: 1.25rem;
+}
+.legend-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-family: var(--font-mono);
+  font-size: 0.63rem;
+  color: var(--muted2);
+}
+.legend-bar {
+  width: 24px;
+  height: 3px;
+  border-radius: 2px;
+  flex-shrink: 0;
+}
+.legend-bar.accent { background: var(--accent); }
+.legend-bar.teal   { background: var(--teal); }
+.legend-bar.dim    { background: var(--muted2); }
   /* LIGHTBOX */
 .lightbox-overlay {
   display: none; position: fixed; inset: 0; z-index: 999;
@@ -554,6 +579,11 @@ footer {
   <p class="eyebrow fi">Technical Stack</p>
   <h2 class="sec-title fi">Skills &amp; Tools</h2>
   <p class="sec-sub fi">Honest proficiency levels — built through projects, internship, and formal coursework.</p>
+  <div class="bar-legend">
+    <div class="legend-item"><span class="legend-bar accent"></span> Confident</div>
+    <div class="legend-item"><span class="legend-bar teal"></span> Proficient</div>
+    <div class="legend-item"><span class="legend-bar dim"></span> Foundational</div>
+  </div>
   <div class="skills-layout">
     <div class="fi">
       <p class="sg-title">Networking &amp; Systems</p>
