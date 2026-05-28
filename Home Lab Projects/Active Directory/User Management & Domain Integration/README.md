@@ -61,4 +61,4 @@ For the complete step-by-step documentation, see [Active_Directory_to_DC.pdf](do
  
 ## Related
  
-- [Part 1 — Setup & Configuration](../Active-Directory-Setup/README.md)
+- [Part 1 — Setup & Configuration](https://github.com/MenDo03/MenDo03.github.io/blob/main/Home%20Lab%20Projects/Active%20Directory/Setup%20%26%20Configuration/README.md)
