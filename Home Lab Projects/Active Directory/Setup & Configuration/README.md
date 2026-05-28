@@ -27,7 +27,7 @@ A home lab simulating a basic enterprise Active Directory environment using virt
 ## Screenshots
  
 ### VM Setup
-![VM Setup](Setup & Configuration/1 Client and Server.png)
+![VM Setup](pics/1 Client and Server.png)
  
 ### Static IP Configuration
 ![Static IP](screenshots/02-static-ip.png)
