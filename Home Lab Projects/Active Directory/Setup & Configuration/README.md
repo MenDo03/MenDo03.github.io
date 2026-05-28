@@ -30,13 +30,13 @@ A home lab simulating a basic enterprise Active Directory environment using virt
 ![VM Setup](pics/1-Client-and-Server.png)
  
 ### Static IP Configuration
-![Static IP](screenshots/02-static-ip.png)
+![Static IP](pics/2-Assign-IP-Address.png)
  
 ### AD DS Installation
-![AD DS Install](screenshots/03-adds-install.png)
+![AD DS Install](pics/3-AD-DS.png)
  
 ### Promoting to Domain Controller
-![Domain Controller Promotion](screenshots/04-dc-promotion.png)
+![Domain Controller Promotion](pics/4-Promote-to-Domain-Controller.png)
  
 ---
  
