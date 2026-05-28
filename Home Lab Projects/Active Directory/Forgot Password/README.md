@@ -87,5 +87,5 @@ It worked. Sweet sweet success.
  
 ## Related
  
-- [Part 1 — Setup & Configuration](../Setup%20Configuration/README.md)
-- [Part 2 — User Management & Domain Integration](../User%20Management%20&%20Domain%20Integration/README.md)
+- [Part 1 — Setup & Configuration](Setup%20Configuration/README.md)
+- [Part 2 — User Management & Domain Integration](User%20Management%20&%20Domain%20Integration/README.md)
