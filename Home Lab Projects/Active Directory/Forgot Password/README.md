@@ -88,4 +88,4 @@ It worked. Sweet sweet success.
 ## Related
  
 - [Part 1 — Setup & Configuration](https://github.com/MenDo03/MenDo03.github.io/blob/main/Home%20Lab%20Projects/Active%20Directory/Setup%20%26%20Configuration/README.md)
-- [Part 2 — User Management & Domain Integration](User%20Management%20&%20Domain%20Integration/README.md)
+- [Part 2 — User Management & Domain Integration](https://github.com/MenDo03/MenDo03.github.io/blob/main/Home%20Lab%20Projects/Active%20Directory/User%20Management%20%26%20Domain%20Integration/README.md)
