@@ -17,8 +17,8 @@ A continuation of the Active Directory Home Lab series. This section simulates c
 
 ## What This Covers
 
-- Password reset for a locked out user
-- Unlocking a locked out account
+- Password reset for a locked-out user
+- Unlocking a locked-out account
 - Disabling and re-enabling user accounts
 - Understanding account and password expiration policies
 
@@ -82,6 +82,6 @@ Covered two types of account expiration:
 
 ## Related
 
-- [Part 1 — Setup & Configuration](../Active-Directory-Setup/README.md)
-- [Part 2 — User Management & Domain Integration](../Active-Directory-User-Management/README.md)
-- [Part 3 — Troubleshooting: Account Recovery](../Active-Directory-Troubleshooting/README.md)
+- [Part 1 — Setup & Configuration](https://github.com/MenDo03/MenDo03.github.io/blob/main/Home%20Lab%20Projects/Active%20Directory/Setup%20%26%20Configuration/README.md)
+- [Part 2 — User Management & Domain Integration](https://github.com/MenDo03/MenDo03.github.io/blob/main/Home%20Lab%20Projects/Active%20Directory/User%20Management%20%26%20Domain%20Integration/README.md)
+- [Part 3 — Troubleshooting: Account Recovery](https://github.com/MenDo03/MenDo03.github.io/blob/main/Home%20Lab%20Projects/Active%20Directory/Forgot%20Password/README.md)
