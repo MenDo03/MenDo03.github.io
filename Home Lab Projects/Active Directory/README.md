@@ -21,7 +21,7 @@ This repo is broken down into separate sections, each focusing on a different pa
 
 ---
 
-### 📁 [Setup & Configuration](./Setup%20&%20Configuration/README.md)
+### 📁 [Setup & Configuration](https://github.com/MenDo03/MenDo03.github.io/tree/main/Home%20Lab%20Projects/Active%20Directory/Setup%20%26%20Configuration)
 Getting the environment up and running from scratch.
 - Provisioned two VMs in VirtualBox — Windows Server 2022 and Windows 11
 - Renamed the server and configured network adapters
@@ -31,7 +31,7 @@ Getting the environment up and running from scratch.
 
 ---
 
-### 📁 [User Management & Domain Integration](./User%20Management%20&%20Domain%20Integration/README.md)
+### 📁 [User Management & Domain Integration](https://github.com/MenDo03/MenDo03.github.io/tree/main/Home%20Lab%20Projects/Active%20Directory/User%20Management%20%26%20Domain%20Integration)
 Managing users, groups, and connecting client machines to the domain.
 - Created Organizational Units (OUs) to organize users and groups
 - Added user accounts and security groups
@@ -41,7 +41,7 @@ Managing users, groups, and connecting client machines to the domain.
 
 ---
 
-### 📁 [Forgot Password](./Forgot%20Password/README.md)
+### 📁 [Forgot Password](https://github.com/MenDo03/MenDo03.github.io/tree/main/Home%20Lab%20Projects/Active%20Directory/Forgot%20Password)
 A real troubleshooting scenario — recovering access to a disabled local account.
 - Attempted to reset local account from the server (and learned why that doesn't work)
 - Used domain admin credentials to elevate CMD privileges on the client machine
@@ -50,10 +50,10 @@ A real troubleshooting scenario — recovering access to a disabled local accoun
 
 ---
 
-### 📁 [Basic IT Ticketing](./Basic%20IT%20Ticketing/README.md)
+### 📁 [Basic IT Ticketing](https://github.com/MenDo03/MenDo03.github.io/tree/main/Home%20Lab%20Projects/Active%20Directory/Basic%20IT%20Ticketing)
 Simulating common helpdesk tickets using the lab environment.
 - Password reset with forced change on next logon
-- Unlocking a locked out account
+- Unlocking a locked-out account
 - Disabling and re-enabling user accounts following proper HR procedures
 - Understanding password and contractor account expiration policies
 
@@ -65,7 +65,7 @@ https://github.com/MenDo03/MenDo03.github.io/blob/main/Home%20Lab%20Projects/Act
 - The difference between local machine accounts and domain accounts
 - How DNS, static IPs, and network adapters work together in a domain environment
 - Real helpdesk workflows and the security practices that go with them
-- Why certain things like account lockout policies only work at the domain level
+- Why do certain things like account lockout policies only work at the domain level
 - Proper procedures around account management — when to act and when to check with HR first
 
 ---
