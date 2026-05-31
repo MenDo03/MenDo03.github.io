@@ -28,7 +28,7 @@ A continuation of the Active Directory Home Lab series. This section simulates c
 
 User calls in saying they forgot their password and cannot log in. Located the account in Active Directory Users and Computers using the Find tool, performed a password reset with forced change on next logon, and confirmed the user could log in successfully before closing the ticket.
 
-![Password Reset](pics/Password-Reset.png)
+![Password Reset](pics/Password-Reset.PNG)
 
 ---
 
@@ -42,7 +42,7 @@ User calls in saying their account is locked after entering the wrong password t
 
 Located the account, went to the Account tab, unchecked the lockout, and confirmed with the user before closing the ticket.
 
-![Account Lockout](pics/Locked.png)
+![Account Lockout](pics/Locked.PNG)
 
 ---
 
@@ -50,7 +50,7 @@ Located the account, went to the Account tab, unchecked the lockout, and confirm
 
 Simulated a scenario where HR requests a user account to be disabled — for example when a user goes on extended leave or leaves the company. Also covered the re-enable process, which requires HR confirmation before any action is taken.
 
-![Account Disabled](pics/Disable.png)
+![Account Disabled](pics/Disable.PNG)
 
 > **Important:** Never re-enable an account without HR confirmation even if the user calls in directly. Always verify with HR first.
 
