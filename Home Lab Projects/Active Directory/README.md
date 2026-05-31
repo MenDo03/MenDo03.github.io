@@ -58,7 +58,7 @@ Simulating common helpdesk tickets using the lab environment.
 - Understanding password and contractor account expiration policies
 
 ---
-https://github.com/MenDo03/MenDo03.github.io/blob/main/Home%20Lab%20Projects/Active%20Directory/README.md
+
 ## Key Things Learned
 
 - How Active Directory works as a centralized identity and access management system
