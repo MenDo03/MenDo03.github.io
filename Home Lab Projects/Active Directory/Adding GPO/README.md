@@ -143,7 +143,7 @@ gpresult /r
 
 ## Related
 
-- [Part 1 — Setup & Configuration](../Setup%20&%20Configuration/README.md)
-- [Part 2 — User Management & Domain Integration](../User%20Management%20&%20Domain%20Integration/README.md)
-- [Part 3 — Forgot Password](../Forgot%20Password/README.md)
-- [Part 4 — Basic IT Ticketing](../Basic%20IT%20Ticketing/README.md)
+- [Part 1 — Setup & Configuration](https://github.com/MenDo03/MenDo03.github.io/blob/main/Home%20Lab%20Projects/Active%20Directory/Setup%20%26%20Configuration/README.md)
+- [Part 2 — User Management & Domain Integration](https://github.com/MenDo03/MenDo03.github.io/blob/main/Home%20Lab%20Projects/Active%20Directory/User%20Management%20%26%20Domain%20Integration/README.md)
+- [Part 3 — Forgot Password](https://github.com/MenDo03/MenDo03.github.io/blob/main/Home%20Lab%20Projects/Active%20Directory/Forgot%20Password/README.md)
+- [Part 4 — Basic IT Ticketing](https://github.com/MenDo03/MenDo03.github.io/tree/main/Home%20Lab%20Projects/Active%20Directory/Basic%20IT%20Ticketing/README.md)
