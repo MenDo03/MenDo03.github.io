@@ -49,7 +49,7 @@ Computer Configuration > Policies > Windows Settings > Security Settings > Accou
 - Lockout Duration: **0** — admin must manually unlock
 - Reset Counter After: **3 minutes**
 
-![Account Lockout Policy](screenshots/account-lockout-policy.png)
+![Account Lockout Policy](pics/Lock-Duration.PNG)
 
 > **Note:** Domain admin accounts are exempt from lockout by default. Always test with a regular domain user like `LAB\BCampbell`.
 
@@ -68,7 +68,7 @@ Computer Configuration > Policies > Windows Settings > Security Settings > Accou
 - Minimum Password Length: **8 characters**
 - Password Must Meet Complexity Requirements: **Enabled**
 
-![Password Complexity Policy](screenshots/password-complexity-policy.png)
+![Password Complexity Policy](pics/Password-Requirement.PNG)
 
 ---
 
@@ -88,7 +88,7 @@ User Configuration > Policies > Administrative Templates > Control Panel
 
 Setting: **Prohibit access to Control Panel and PC Settings** → Enabled
 
-![Control Panel Restriction](screenshots/control-panel-restriction.png)
+![Control Panel Restriction](pics/Prohibit-ControlPanel.PNG)
 
 ---
 
@@ -108,7 +108,7 @@ User Configuration > Policies > Administrative Templates > Desktop > Desktop > D
 
 Setting: **Desktop Wallpaper** → Enabled → enter local wallpaper path
 
-![Desktop Wallpaper GPO](screenshots/desktop-wallpaper-gpo.png)
+![Desktop Wallpaper GPO](pics/Wallpaper.PNG)
 
 ---
 
