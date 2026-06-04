@@ -144,4 +144,4 @@ Removed Jake Anthony from the HR group in Active Directory. Access was revoked i
 - [Part 2 — User Management & Domain Integration](../User%20Management%20&%20Domain%20Integration/README.md)
 - [Part 3 — Forgot Password](../Forgot%20Password/README.md)
 - [Part 4 — Basic IT Ticketing](../Basic%20IT%20Ticketing/README.md)
-- [Part 5 — Group Policy Objects](../Group%20Policy%20Objects/README.md)
+- [Part 5 — Group Policy Objects](../Adding%20GPO/README.md)
