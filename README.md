@@ -1,11 +1,3 @@
-# Hi, I'm Daniel 👋
-
-Computer Engineering Graduate based in Las Piñas City, Philippines. I build things — from IoT systems and embedded hardware to IT infrastructure labs. Currently focused on expanding my skills in systems administration and networking while actively looking for entry-level IT opportunities.
-
-📄 [Portfolio Website](https://mendo03.github.io/) | 💼 [LinkedIn](https://www.linkedin.com/in/danieltenoriolacosta)
-
----
-
 ## 🖥️ Home Lab Projects
 
 Hands-on IT labs built to simulate real enterprise environments and get practical experience with systems administration and networking.
