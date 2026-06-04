@@ -24,7 +24,7 @@ Hardware and software projects built around real problems — reducing manual la
 
 | Project | Description |
 |---|---|
-| [OmniTxt SMS Gateway](./OmniTxt) | Multi-port Raspberry Pi GSM gateway supporting up to 8 simultaneous SIM cards for bulk SMS communication |
+| [OmniTxt SMS Gateway](./OmniTxT) | Multi-port Raspberry Pi GSM gateway supporting up to 8 simultaneous SIM cards for bulk SMS communication |
 | [Submarine Blockage Detection](./Submarine%20Blockage%20Detection) | Remote-controlled IoT submarine with YOLOv8 real-time object detection for waterway blockage monitoring |
 | [SMART Voltage Leak Detection System](./SMART%20Voltage%20Leak%20Detection%20System) | Automated voltage leak detection system with threshold-based safety response |
 | [Water Overflowing Alarm](./WaterOverflowing%20Alarm) | IoT-based water level monitoring system with automated alarm triggers |
