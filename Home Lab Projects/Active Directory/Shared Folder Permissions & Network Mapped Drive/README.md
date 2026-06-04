@@ -46,7 +46,7 @@ Companies always have at least one backup DC. If the only DC goes down, nobody c
 
 Added Jake Anthony to the HR group in Active Directory Users and Computers. Verified by checking the Members tab of the HR group.
 
-![Add User to Group](screenshots/add-user-to-group.png)
+![Add User to Group](pics/1-Add-to-Groups.PNG)
 
 > **Best Practice:** Always add users to groups, never assign permissions directly to individual users. When someone joins or leaves, just update the group — never the folder permissions.
 
@@ -56,7 +56,7 @@ Added Jake Anthony to the HR group in Active Directory Users and Computers. Veri
 
 Created a `Shares` root folder on the C: drive of the server. Inside it, created an `HR` folder with subfolders for Resumes, Forms, and Medical Records.
 
-![Shared Folder Structure](screenshots/shared-folder-structure.png)
+![Shared Folder Structure](pics/2-Shared-Folder-HR.PNG)
 
 ---
 
@@ -70,7 +70,7 @@ Two layers of permissions were configured:
 **NTFS Permissions** — controls access at the file system level
 - Added the HR group with Modify permission
 
-![NTFS Permissions](screenshots/ntfs-permissions.png)
+![NTFS Permissions](pics/3-Permission.PNG)
 
 > **Note:** Modify lets HR members read, create, edit, and delete files. Do not give Full Control to regular users — Full Control includes the ability to change permissions, which is admin-only.
 
@@ -80,7 +80,7 @@ Two layers of permissions were configured:
 
 Logged into the Windows 11 VM as `LAB\JAnthony` and confirmed access to the HR shared folder through File Explorer.
 
-![Verify Access](screenshots/verify-access.png)
+![Verify Access](pics/4-Folder-Access.PNG)
 
 > **Important:** New group memberships don't take effect until the user logs out and back in — one of the most common helpdesk calls after granting folder access.
 
@@ -94,7 +94,7 @@ Mapped the HR shared folder as the H: drive on the Windows 11 machine through Fi
 \\LAB.LOCAL\HR → H:
 ```
 
-![Manual Drive Map](screenshots/manual-drive-map.png)
+![Manual Drive Map](pics/Network-Drive.PNG)
 
 > **Best Practice:** Match drive letters to department names — H for HR, F for Finance, I for IT. Easy for users to remember.
 
@@ -111,9 +111,9 @@ User Configuration > Preferences > Windows Settings > Drive Maps
 
 **Item-Level Targeting** was configured so the drive only appears for users in the HR security group — without it, the drive would show up for every user on the domain regardless of their group.
 
-![GPO Drive Map](screenshots/gpo-drive-map.png)
+![GPO Drive Map](pics/5-GPO-Map.PNG)
 
-![Item Level Targeting](screenshots/item-level-targeting.png)
+![Item Level Targeting](pics/Item-Level-Targeting.PNG)
 
 > **Note:** Use log out and log back in when testing GPO drive maps — `gpupdate /force` alone sometimes doesn't refresh drive map preferences reliably.
 
