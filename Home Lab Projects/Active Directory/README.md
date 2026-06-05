@@ -31,7 +31,7 @@ Getting the environment up and running from scratch.
 
 ---
 
-### 📁 [User Management & Domain Integration](https://github.com/MenDo03/MenDo03.github.io/tree/main/Home%20Lab%20Projects/Active%20Directory/User%20Management%20%26%20Domain%20Integration)
+### 📁 [User Management & Domain Integration](./User%20Management%20%26%20Domain%20Integration)
 Managing users, groups, and connecting client machines to the domain.
 - Created Organizational Units (OUs) to organize users and groups
 - Added user accounts and security groups
@@ -41,7 +41,7 @@ Managing users, groups, and connecting client machines to the domain.
 
 ---
 
-### 📁 [Forgot Password](https://github.com/MenDo03/MenDo03.github.io/tree/main/Home%20Lab%20Projects/Active%20Directory/Forgot%20Password)
+### 📁 [Forgot Password](./Forgot%20Password)
 A real troubleshooting scenario — recovering access to a disabled local account.
 - Attempted to reset local account from the server (and learned why that doesn't work)
 - Used domain admin credentials to elevate CMD privileges on the client machine
@@ -50,7 +50,7 @@ A real troubleshooting scenario — recovering access to a disabled local accoun
 
 ---
 
-### 📁 [Basic IT Ticketing](https://github.com/MenDo03/MenDo03.github.io/tree/main/Home%20Lab%20Projects/Active%20Directory/Basic%20IT%20Ticketing)
+### 📁 [Basic IT Ticketing](./Basic%20IT%20Ticketing)
 Simulating common helpdesk tickets using the lab environment.
 - Password reset with forced change on next logon
 - Unlocking a locked-out account
