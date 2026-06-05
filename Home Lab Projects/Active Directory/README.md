@@ -31,7 +31,7 @@ Getting the environment up and running from scratch.
 
 ---
 
-### 📁 [User Management & Domain Integration](./User%20Management%20%26%20Domain%20Integration)
+### 📁 [User Management & Domain Integration](./User%20Management%20&%20Domain%20Integration)
 Managing users, groups, and connecting client machines to the domain.
 - Created Organizational Units (OUs) to organize users and groups
 - Added user accounts and security groups
@@ -59,14 +59,41 @@ Simulating common helpdesk tickets using the lab environment.
 
 ---
 
+### 📁 [Group Policy Project](./Adding%20GPO)
+Configuring Group Policy Objects to enforce security settings and control the user environment across the domain.
+- Created and linked GPOs at both the domain and OU level
+- Configured Account Lockout Policy — locks accounts after 3 failed attempts, admin unlock required
+- Configured Password Complexity Policy — minimum length and complexity requirements
+- Restricted access to the Control Panel for regular users
+- Enforced a desktop wallpaper across all user machines
+- Used gpupdate /force and gpresult /r to apply and verify policies
+
+---
+
+### 📁 [Shared Folder Permissions & Network Mapped Drive](./Shared%20Folder%20Permissions%20&%20Network%20Mapped%20Drive)
+Setting up shared folders, configuring permissions per group, and mapping network drives manually and through GPO.
+- Added a user to the correct Active Directory group
+- Created a shared folder structure on the server
+- Configured Share Permissions and NTFS Permissions
+- Verified folder access on the client machine
+- Manually mapped a network drive on the client
+- Automated drive mapping via GPO with Item-Level Targeting so drives only appear for the correct group
+- Removed user access by removing them from the group
+
+---
+
 ## Key Things Learned
 
 - How Active Directory works as a centralized identity and access management system
 - The difference between local machine accounts and domain accounts
 - How DNS, static IPs, and network adapters work together in a domain environment
 - Real helpdesk workflows and the security practices that go with them
-- Why do certain things like account lockout policies only work at the domain level
+- Why certain policies like Account Lockout only work when applied at the domain level
 - Proper procedures around account management — when to act and when to check with HR first
+- How GPOs work and the difference between Computer Configuration and User Configuration
+- The two layers of folder permissions — Share Permissions and NTFS Permissions
+- Why permissions should always be assigned to groups, never individual users
+- How Item-Level Targeting makes GPO drive mapping smart and group-specific
 
 ---
 
@@ -74,11 +101,7 @@ Simulating common helpdesk tickets using the lab environment.
 
 This lab is still actively being built. Planned additions include:
 
-- Group Policy Objects (GPOs) — password policy, control panel restrictions, desktop wallpaper enforcement
-- Shared Network Folder with Permissions — NTFS and share permissions per group
-- Account Lockout Policy — triggering and unlocking accounts
 - DHCP Setup — automatic IP assignment for client machines
-- Mapped Network Drive via GPO — automatically mapping drives on user login
 
 ---
 
