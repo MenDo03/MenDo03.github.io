@@ -21,7 +21,7 @@ This repo is broken down into separate sections, each focusing on a different pa
 
 ---
 
-### 📁 [Setup & Configuration](../Setup%20&%20Configuration)
+### 📁 [Setup & Configuration](./Setup%20&%20Configuration)
 Getting the environment up and running from scratch.
 - Provisioned two VMs in VirtualBox — Windows Server 2022 and Windows 11
 - Renamed the server and configured network adapters
