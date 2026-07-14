@@ -29,7 +29,7 @@ The starting point of the Cisco Packet Tracer home lab series. This section cove
 
 Packet Tracer is completely free and available through Cisco's NetAcad platform at **netacad.com**. An active NetAcad account is required to download and use the application.
 
-![Packet Tracer Download](2-Download-Packet-Tracer.PNG)
+![Packet Tracer Download](pics/2-Download-Packet-Tracer.PNG)
 
 ---
 
