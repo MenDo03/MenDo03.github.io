@@ -97,7 +97,7 @@ Switched to Simulation Mode to visually see ICMP packets moving across the netwo
 
 Clicking on any packet envelope shows its details including the OSI model layers it passed through and the source and destination IP addresses.
 
-![Simulation Mode](pics/12-process.PNG)
+![Simulation Mode](pics/Packet-Tracer.gif)
 
 ---
 
