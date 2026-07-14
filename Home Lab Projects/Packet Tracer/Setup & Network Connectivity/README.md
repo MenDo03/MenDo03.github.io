@@ -29,7 +29,7 @@ The starting point of the Cisco Packet Tracer home lab series. This section cove
 
 Packet Tracer is completely free and available through Cisco's NetAcad platform at **netacad.com**. An active NetAcad account is required to download and use the application.
 
-![Packet Tracer Download](screenshots/pt-download.png)
+![Packet Tracer Download](2-Download-Packet-Tracer.PNG)
 
 ---
 
@@ -43,7 +43,7 @@ Before building anything it helps to know where everything is in the workspace.
 - **Logical vs Physical View** — Logical View is where most work happens. Physical View shows a realistic simulation of what the network would look like in real life
 - **Toolbar (top left)** — tools for selecting, deleting, inspecting, and labeling devices
 
-![Packet Tracer Interface](screenshots/pt-interface.png)
+![Packet Tracer Interface](3-Installed-Packet-Tracer.PNG)
 
 ---
 
@@ -54,7 +54,7 @@ Added two PCs and one switch to the workspace and connected them using Copper St
 - **PC0** connected to Switch FastEthernet0/1
 - **PC1** connected to Switch FastEthernet0/2
 
-![Network Topology](screenshots/pt-topology.png)
+![Network Topology](6-connections.PNG)
 
 > **Tip:** If unsure which cable to use, click the lightning bolt icon to let Packet Tracer automatically choose the correct cable type.
 
@@ -69,7 +69,7 @@ Each PC was assigned a static IP address manually through Desktop > IP Configura
 | PC0 | 192.168.0.1 | 255.255.255.0 |
 | PC1 | 192.168.0.2 | 255.255.255.0 |
 
-![IP Configuration](screenshots/pt-ip-config.png)
+![IP Configuration](8-IP-config.PNG)
 
 > **Note:** Both PCs must be on the same network to communicate directly without a router. 192.168.0.1 and 192.168.0.2 are both within the 192.168.0.0/24 network range.
 
@@ -85,7 +85,7 @@ ping 192.168.0.2
 
 A successful ping returns **Reply from 192.168.0.2** confirming the two devices can communicate through the switch.
 
-![Ping Test](screenshots/pt-ping-test.png)
+![Ping Test](11-ping.PNG)
 
 > **Note:** Ping uses ICMP (Internet Control Message Protocol) to send a small test packet from one device to another. It is the most basic and commonly used network troubleshooting tool in real IT and networking environments.
 
@@ -97,7 +97,7 @@ Switched to Simulation Mode to visually see ICMP packets moving across the netwo
 
 Clicking on any packet envelope shows its details including the OSI model layers it passed through and the source and destination IP addresses.
 
-![Simulation Mode](screenshots/pt-simulation.png)
+![Simulation Mode](12-process.PNG)
 
 ---
 
