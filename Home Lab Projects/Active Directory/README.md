@@ -1,6 +1,6 @@
 # Active Directory Home Lab
 
-A personal home lab project simulating a real enterprise Active Directory environment from scratch using virtual machines. Built for hands-on learning, portfolio documentation, and practical experience with systems administration and IT helpdesk workflows.
+A personal hands-on Active Directory home lab simulating a small enterprise environment using Windows Server 2022, and Windows 11 viritual machines. Built to develop practical experience in Windows Server administration, Active Directory Domain Services, and common IT support workflows while documenting each stage of deployment and configuration.
 
 ---
 
