@@ -29,7 +29,7 @@ Building on the basic topology from Level 1, this section covers VLANs (Virtual 
 
 ## Network Topology
 
-![Network Topology](screenshots/vlan-topology.png)
+![Network Topology](pics/Topology.PNG)
 
 The topology simulates a small enterprise with two switches serving three departments across two sides of a building. Each department is assigned its own VLAN and subnet to keep traffic completely isolated.
 
@@ -57,7 +57,7 @@ Each PC was assigned a static IP address matching its VLAN subnet. The third oct
 - `192.168.20.x` → VLAN 20 (IT)
 - `192.168.30.x` → VLAN 30 (Finance)
 
-![IP Configuration](screenshots/vlan-ip-config.png)
+![IP Configuration](pics/Topology.PNG)
 
 > **Note:** Two devices can share the same last octet as long as they are on different subnets. For example 192.168.10.1 and 192.168.20.1 are completely separate addresses even though both end in .1.
 
