@@ -29,7 +29,7 @@ Building on the basic topology from Level 1, this section covers VLANs (Virtual 
 
 ## Network Topology
 
-![Network Topology](pics/Topology.PNG)
+![Network Topology](pics/Topology.png)
 
 The topology simulates a small enterprise with two switches serving three departments across two sides of a building. Each department is assigned its own VLAN and subnet to keep traffic completely isolated.
 
