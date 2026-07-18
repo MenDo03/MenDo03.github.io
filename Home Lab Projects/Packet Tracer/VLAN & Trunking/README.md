@@ -57,7 +57,7 @@ Each PC was assigned a static IP address matching its VLAN subnet. The third oct
 - `192.168.20.x` → VLAN 20 (IT)
 - `192.168.30.x` → VLAN 30 (Finance)
 
-![IP Configuration](pics/Topology.PNG)
+![IP Configuration](pics/IP-Config.png)
 
 > **Note:** Two devices can share the same last octet as long as they are on different subnets. For example 192.168.10.1 and 192.168.20.1 are completely separate addresses even though both end in .1.
 
@@ -88,7 +88,7 @@ do show vlan brief
 
 `do show vlan brief` confirms the VLANs were created and named correctly. At this point they have no ports assigned yet — that happens in the next step.
 
-![VLAN Created](screenshots/vlan-created.png)
+![VLAN Created](pics/Config-VLAN.png)
 
 ---
 
@@ -120,7 +120,7 @@ do wr
 
 **Access mode** tells the switch that the connected device is an end device (PC, printer, etc.) and that the port should only carry traffic for one specific VLAN.
 
-![Ports Assigned](screenshots/vlan-ports-assigned.png)
+![Ports Assigned](pics/Switchport2-Assign.png)
 
 > **Important:** This entire process must be repeated on Switch2 — every switch needs its ports assigned to the correct VLANs independently.
 
@@ -137,7 +137,7 @@ exit
 do wr
 ```
 
-![Trunk Configuration](screenshots/vlan-trunk-config.png)
+![Trunk Configuration](pics/Switch-Trunk.png)
 
 > **Important:** The trunk must be configured on both Switch0 and Switch2. Both ends of the link must be set to trunk mode or the link won't function correctly.
 
@@ -161,7 +161,7 @@ ping 192.168.20.1
 ```
 Result: ❌ Request timed out — HR and IT are on different VLANs and cannot communicate without a router.
 
-![Ping Tests](screenshots/vlan-ping-test.png)
+![Ping Tests](pics/Ping-Bad.gif)
 
 > **Note:** Getting "Request timed out" when pinging across VLANs is the correct and expected behavior. It confirms that VLAN isolation is working as intended.
 
