@@ -181,5 +181,5 @@ Result: ❌ Request timed out — HR and IT are on different VLANs and cannot co
 
 ## Related
 
-- [Level 1 — Basic Network Setup & Connectivity](../Level%201/README.md)
+- [Level 1 — Basic Network Setup & Connectivity](../Setup%20%26%20Network%20Connectivity/README.md)
 - [Packet Tracer Home Lab — Main](../README.md)
