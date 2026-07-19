@@ -131,7 +131,7 @@ With the lessons from troubleshooting in mind, here is the complete working conf
 
 Added a Cisco 2911 router to the topology and connected it to Switch0 using a single cable — **Gig0/0** on the router side, **Gig0/1** on the switch side.
 
-![Router Added](pics/Add-Router)
+![Router Added](pics/Add-Router.png)
 
 ---
 
