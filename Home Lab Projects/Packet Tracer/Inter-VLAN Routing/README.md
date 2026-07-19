@@ -241,6 +241,6 @@ Result: ⚠️ First 1-2 packets may time out then replies come in — this is n
 
 ## Related
 
-- [Level 1 — Basic Network Setup & Connectivity](../Level%201/README.md)
-- [Level 2 — VLANs and Trunking](../Level%202/README.md)
+- [Level 1 — Basic Network Setup & Connectivity](../Setup%20%26%20Network%20Connectivity/README.md)
+- [Level 2 — VLANs and Trunking](../VLAN%20%26%20Trunking/README.md)
 - [Packet Tracer Home Lab — Main](../README.md)
