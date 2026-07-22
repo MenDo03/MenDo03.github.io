@@ -5,8 +5,9 @@ Hands-on IT labs built to simulate real enterprise environments and get practica
 | Project | Description |
 |---|---|
 | [Active Directory Home Lab](./Home%20Lab%20Projects/Active%20Directory) | Virtualized AD environment covering domain setup, GPO, user management, shared folder permissions, and IT helpdesk scenarios |
+| [Cisco Packet Tracer Network Lab](./Packet%20Tracer) | Network simulation lab covering basic topology, VLANs, trunking, and inter-VLAN routing using Router on a Stick. Built toward a full enterprise network topology. |
 
-> More home lab projects coming soon — DHCP, network monitoring, cybersecurity labs, and more.
+> More home lab projects coming soon — DHCP, ACLs, NAT, and a full enterprise network capstone topology.
 
 ---
 
