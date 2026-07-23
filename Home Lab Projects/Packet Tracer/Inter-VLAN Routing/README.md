@@ -30,6 +30,11 @@ This was the most educational section of the lab series so far. Not because the 
 - Real troubleshooting steps taken when inter-VLAN routing did not work
 
 ---
+## Video Walkthrough
+📹 A complete walkthrough of this lab is available on my LinkedIn, demonstrating the implementation from topology creation to Inter-VLAN Routing verification.
+
+🔗 LinkedIn Post: [link]
+---
 
 ## Network Topology
 
