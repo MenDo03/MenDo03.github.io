@@ -33,7 +33,7 @@ This was the most educational section of the lab series so far. Not because the 
 ## Video Walkthrough
 📹 A complete walkthrough of this lab is available on my LinkedIn, demonstrating the implementation from topology creation to Inter-VLAN Routing verification.
 
-🔗 LinkedIn Post: [https://www.linkedin.com/posts/danieltenoriolacosta_cisco-ccna-networking-ugcPost-7485692340255358976--Xcd/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAGGRr0wBFhTqBKJKMzOABNZ4ZGuabg4yRUA]
+🔗 LinkedIn Post: [Video Walkthrough](https://www.linkedin.com/posts/danieltenoriolacosta_cisco-ccna-networking-ugcPost-7485692340255358976--Xcd/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAGGRr0wBFhTqBKJKMzOABNZ4ZGuabg4yRUA)
 ---
 
 ## Network Topology
