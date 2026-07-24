@@ -139,7 +139,7 @@ exit
 do wr
 ```
 
-![DHCP Pools](pics/DHCP-Pool)
+![DHCP Pools](pics/DHCP-Pool.png)
 
 Verify pools are configured:
 ```
