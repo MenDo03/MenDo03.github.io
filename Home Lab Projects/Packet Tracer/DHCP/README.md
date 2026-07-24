@@ -217,7 +217,7 @@ After trunking the router port, DHCP immediately worked on all PCs.
 
 ## Related
 
-- [Level 1 — Basic Network Setup & Connectivity](../Level%201/README.md)
-- [Level 2 — VLANs and Trunking](../Level%202/README.md)
+- [Level 1 — Basic Network Setup & Connectivity](../Setup%20%26%20Network%20Connectivity1/README.md)
+- [Level 2 — VLANs and Trunking](../VLAN%20%26%20Trunking/README.md)
 - [Level 3 — Inter-VLAN Routing](../Level%203/README.md)
 - [Packet Tracer Home Lab — Main](../README.md)
