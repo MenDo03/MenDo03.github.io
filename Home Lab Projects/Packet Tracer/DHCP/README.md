@@ -197,7 +197,7 @@ do wr
 
 After trunking the router port, DHCP immediately worked on all PCs.
 
-![Troubleshooting](screenshots/dhcp-troubleshooting.png)
+![Troubleshooting](pics/DHCP-Working.png)
 
 > **Discovery:** This is now the second time the missing router trunk caused a failure — first in Level 3 with inter-VLAN routing, and again here with DHCP. The rule stays the same: any port carrying multiple VLANs must be a trunk, including the router port. Always verify with `show interfaces trunk` before testing.
 
