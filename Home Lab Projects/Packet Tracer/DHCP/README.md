@@ -53,7 +53,7 @@ DHCP (Dynamic Host Configuration Protocol) is a **Layer 3 function** — it deal
 
 ## Network Topology
 
-![Network Topology](screenshots/dhcp-topology.png)
+![Network Topology](pics/Network%20Topology.png)
 
 Same topology as Level 3 — one router, two switches, 12 PCs across 3 departments. The difference is PCs are no longer manually configured with IPs.
 
@@ -103,7 +103,7 @@ exit
 do wr
 ```
 
-![Subinterfaces](screenshots/dhcp-subinterfaces.png)
+![Subinterfaces](pics/subinterface.png)
 
 ---
 
@@ -139,7 +139,7 @@ exit
 do wr
 ```
 
-![DHCP Pools](screenshots/dhcp-pools.png)
+![DHCP Pools](pics/DHCP-Pool)
 
 Verify pools are configured:
 ```
@@ -172,7 +172,7 @@ Switch each PC from Static to DHCP mode:
 3. The PC should automatically receive an IP, subnet mask, default gateway, and DNS server
 4. Verify the IP is in the correct range — HR should get 192.168.10.11+, IT 192.168.20.11+, Finance 192.168.30.11+
 
-![DHCP Assigned](screenshots/dhcp-assigned.png)
+![DHCP Assigned](pics/DHCP-PC.gif)
 
 Check which IPs have been assigned from the router:
 ```
