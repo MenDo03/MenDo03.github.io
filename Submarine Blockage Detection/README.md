@@ -58,6 +58,6 @@ or look upon what is happening in the scene.
 ## News & Blog
 ![News Page](pics/News.png)
 This displays the footage recording of the current situation. Shows real-time updating through the
-website, file browser, and the raspberry pi.
+website, file browser, and the raspberry pi system.
 ## Status
 Capstone defended and completed
