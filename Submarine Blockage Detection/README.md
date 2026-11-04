@@ -41,5 +41,13 @@ Tested in a controlled environment. Results varied across materials:
 > Results may vary depending on testing conditions, object 
 > orientation, and training data availability.
 
+## Project Website
+As part of the capstone project, we developed a website to present the submarine system,
+its objectives, and its YOLO-based waste detection capabilities
+
+## Homepage
+## Project Website
+## Project Website
+
 ## Status
 Capstone defended and completed
