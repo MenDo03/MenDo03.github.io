@@ -47,12 +47,17 @@ its objectives, and its YOLO-based waste detection capabilities
 
 ## Homepage
 ![Website Page](pics/Homepage.png)
+This section showcases information regarding the purpose of the submarine unit.
 
 ## Live Feed
 ![Camera](pics/CameraFeed.png)
+This showcases the actual view of the camera feed to identify location of the blockage in sewage
+and at the same time recording the footage and sending to the website, file broswer to set awareness,
+or look upon what is happening in the scene.
 
 ## News & Blog
 ![News Page](pics/News.png)
-
+This displays the footage recording of the current situation. Shows real-time updating through the
+website, file browser, and the raspberry pi.
 ## Status
 Capstone defended and completed
