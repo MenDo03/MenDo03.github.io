@@ -46,8 +46,13 @@ As part of the capstone project, we developed a website to present the submarine
 its objectives, and its YOLO-based waste detection capabilities
 
 ## Homepage
-## Project Website
-## Project Website
+![Website Page](pics/Homepage.png)
+
+## Live Feed
+![Camera](pics/CameraFeed.png)
+
+## News & Blog
+![News Page](pics/News.png)
 
 ## Status
 Capstone defended and completed
